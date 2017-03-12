@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <!--private ImageView back, position;//返回和切换前后置摄像头-->
+    <!--private SurfaceView surface;-->
+    <!--private ImageButton shutter;//快门-->
+    <SurfaceView
+        android:id="@+id/camera_surface"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <ImageView
+        android:id="@+id/camera_back"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#f00"/>
+    <ImageView
+        android:id="@+id/camera_position"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#ff0"
+        android:layout_alignParentRight="true"
+        />
+    <ImageButton
+        android:id="@+id/camera_shutter"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="67dp"
+        android:background="#fff"/>
+</RelativeLayout>

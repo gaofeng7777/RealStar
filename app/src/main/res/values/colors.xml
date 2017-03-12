@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="black">#000</color>
+    
+    <color name="progressbara">#f49556</color>
+    <color name="progressbarb">#f4d856</color>
+    <color name="progressbarc">#56c6f4</color>
+    <color name="progressbard">#a37adb</color>
+</resources>

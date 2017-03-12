@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Real Star</string>
+    <string name="imagefail">Image acquisition failed</string><!--图片获取失败-->
+    <string name="facefail">No face detected</string><!--没有检测到你的脸-->
+    <string name="selfportrait">Please add a self-portrait</string><!--请添加您的自拍照-->
+    <string name="facebook_app_id">389743491393795</string>
+    <string name="appId">app_realstar_gp_1001</string>
+</resources>

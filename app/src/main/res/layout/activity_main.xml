@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_main"
+    tools:context="com.real.stargh.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayouta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_alignTop="@+id/relativeLayoutb"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp">
+
+        <ImageView
+            android:id="@+id/iv_a"
+            android:layout_width="159dp"
+            android:layout_height="210dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/bg_default"
+            android:scaleType="centerCrop" />
+
+        <ImageView
+            android:layout_width="165dp"
+            android:layout_height="216dp"
+            android:background="@drawable/frame"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/imageView" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="400dp"
+        android:gravity="center">
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/re_upload"
+            android:layout_centerInParent="true"
+            android:visibility="gone"/>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <ImageButton
+            android:id="@+id/camera_a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/camera" />
+        <ImageButton
+            android:id="@+id/album_a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ablum"
+            android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="9dp"
+        android:layout_marginTop="154dp"
+        android:id="@+id/relativeLayoutb">
+
+        <ImageView
+            android:id="@+id/iv_b"
+            android:layout_width="159dp"
+            android:layout_height="210dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/bg_default"
+            android:scaleType="centerCrop" />
+
+        <ImageView
+            android:layout_width="165dp"
+            android:layout_height="216dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/frame" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="11dp"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:layout_below="@+id/relativeLayoutb"
+        android:layout_alignRight="@+id/relativeLayoutb"
+        android:layout_alignEnd="@+id/relativeLayoutb"
+        android:layout_marginEnd="11dp">
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/re_upload"
+            android:layout_centerInParent="true"
+            android:visibility="gone"/>
+        <ImageButton
+            android:id="@+id/camera_b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/camera" />
+        <ImageButton
+            android:id="@+id/album_b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ablum"
+            android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/loading"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/loading"
+        android:visibility="gone"/>
+
+    <ImageButton
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="522dp"
+        android:background="@drawable/finish_selecter" />
+
+</RelativeLayout>
